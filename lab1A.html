@@ -2,10 +2,15 @@
 <html lang="en">    
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="lab1.css" />
+        <link rel="stylesheet" href="lab1A.css"/>
         <title>Lab 1A</title>
     </head>
     <body>
+        <div class="top">
+        <h1>Emiliano Viernes</h1>
+        <img src="https://i.natgeofe.com/k/41de528e-c521-4a29-ade6-d385d9a4e5f7/sea-otter-closeup.jpg" width="150px" height="100px" alt="Natgeo-otter">
+        </div>
+
         <table style="width: 100%; height: 100%;">
         <tr>
             <td>
@@ -38,17 +43,24 @@
         </tr>
         <tr>
         <td>
-            <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+            <div class="top-level-drop">
+                "Application Layer"
+                <ul>
+                    <li>"Transport Layer"</li>
+                    <li>"Internet Layer"</li>
+                    <li>"Network Interface Layer"</li>
+                </ul>
                 </div>
             </div>
         </td>
-            <td>Image 4</td>
+            <td>
+                <form action="https://www.google.com/search" method="get">
+                    <label for="lookup">Lookup:</label><br>
+                    <input type="text" id="lookup" name = "q" placeholder="Lookup">
+                    <input type="submit" value="Submit">
+            </td>
         </tr>
         </table>
+       <a href="lab1.html"> Lab 1</a>  
     </body>
 </html>
