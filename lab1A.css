@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.top-level-drop {
+nav {
     position: relative;
     display: inline-block;
     background-color: blue;
@@ -11,23 +11,23 @@
     color: white;
     width: 250px;
   }
-  .top-level-drop ul {
+ nav ul {
     list-style: none;
     display: none;
     padding: 0;
     margin: 0;
   }
   
-.top-level-drop:hover ul {
+nav:hover ul {
     display: block;
   }
-.top-level-drop li {
+nav li {
     background-color: blue;
     border: solid 5px rgb(2, 2, 156);
     color: white;
   }
 
-  .top-level-drop li:hover {
+  nav li:hover {
     color: black;
     background-color: yellow;
   }
