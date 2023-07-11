@@ -21,13 +21,14 @@ nav {
 nav:hover ul {
     display: block;
   }
-nav li {
+nav ul li {
     background-color: blue;
     border: solid 5px rgb(2, 2, 156);
     color: white;
   }
 
-  nav li:hover {
+  nav ul li:hover {
+    text-decoration: none;
     color: black;
     background-color: yellow;
   }
